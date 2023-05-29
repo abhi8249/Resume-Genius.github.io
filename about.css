@@ -1,0 +1,109 @@
+body{
+  background-color: #474e5d
+}
+.nav1{
+    background-color: #022608;
+    text-emphasis-color: white;
+}
+.row{
+    margin-top: 30px;
+}
+.row img{
+    border-radius: 20px;
+    box-shadow: inset;
+    opacity: 0.9;
+}
+.col-3 a{
+ text-decoration: none;
+ color: white;
+}
+ button{
+    background-color: #022608;
+    border-radius: 5px;
+    box-shadow: black;
+    color: white;
+}
+ .col-6 img{
+    width: 200px;
+}
+.col-6 p{
+    color: #022608;
+}
+.secondndrow{
+    margin: 30px auto;
+    width: 70%;
+}
+
+
+.column {
+    float: left;
+    width: 25%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+  }
+  
+  .about-section {
+    padding: 50px;
+    /* width: 100%; */
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+  }
+
+
+  
+  .title {
+    color: grey;
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+    .col-3{
+      text-align: center;
+       width: 100vw;
+    }
+    .col-1 img{
+      width: 100vw;
+    }
+    .row{
+      display: grid;
+    
+    }
+    .col-6{
+      width: 100vw;
+    }
+  
+  }
+.roww3{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap-reverse;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
